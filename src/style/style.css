@@ -1,0 +1,88 @@
+.NavBar{
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: row;
+    margin: 1%;
+    background-color: rgb(215, 250, 243);
+}
+/* .link{
+    margin: 1%;
+    width: 10%;
+    height: 150%;
+    background-color: FFFFFF;
+    border : none;
+}
+.currentlink{
+    margin: 1%;
+    width: 65%;
+    height: 150%;
+    background-color: FFFFFF;
+    border : none;
+} */
+/* button{
+    border: none;
+    text-decoration: none;
+    background-color: rgb(234, 247, 245);
+    width: 65px;
+    height: 35px;
+    font-size: 15px;
+}
+button:hover {
+    background-color: rgb(18, 113, 120);
+    border-style: groove;
+    border-color: black;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    color: white;
+}
+input{
+    height: 25px;
+    margin-top: 0.6%;
+    width: 100%;
+    border-style: groove;
+    border-color: azure;
+    border-radius: 125px;
+} */
+input::grammar-error{
+    
+}
+
+
+/* 
+
+.ft{
+    display: flex;
+    flex-basis: 25px;
+    background-color: rgb(215, 250, 243);
+    font-size: 19px;
+    margin: 1%;
+}
+
+.ct_ft_link{
+    display: grid;
+    grid-column: 25%;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+#github{
+    height: 32px;
+    margin-bottom: 0.1%;
+}
+.font_ft{
+    font-size: 15px;
+    color: black;
+    line-height: 160%;
+}
+#about_ft{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.cn_ft{
+    margin-left: 40%;
+}
+ */

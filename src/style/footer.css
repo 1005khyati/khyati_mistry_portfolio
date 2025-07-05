@@ -1,0 +1,75 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EEE8DF;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #2C365A;
+    padding: 2% 5%;
+    font-size: 19px;
+    border-top: 2px solid #EEE8DF;
+
+    color: #EEE8DF;
+}
+
+.ct_ft_link,
+#about_ft,
+.cn_ft {
+    flex: 1 1 250px;
+    margin: 1% 2%;
+}
+
+.ct_ft_link b,
+.cn_ft b {
+    font-size: 20px;
+    color: #EEE8DF;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.social {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 8px 10px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.social:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#github {
+    height: 36px;
+}
+
+.font_ft {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 5px;
+    text-decoration: none; 
+    color: #EEE8DF;
+}
+
+#about_ft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.cn_ft {
+    text-align: left;
+   
+}
+
+
+.font_ft:hover{
+    font-size: 22px;
+
+}

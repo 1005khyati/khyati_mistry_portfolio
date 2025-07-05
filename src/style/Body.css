@@ -1,0 +1,96 @@
+:root {
+  --beige-bg: #1a73e8;
+  --text-dark: #1b1b1b;
+  --link-blue: #C4C8B0  ;
+  --card-hover: #b5baa3;
+}
+
+.Body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--beige-bg);
+  color: var(--text-dark);
+  padding: 3rem;
+  border-radius: 16px;
+  line-height: 1.6;
+}
+
+/* Intro Section */
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.intro-left, .intro-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.intro-right ul {
+  list-style: square;
+  margin-left: 1.2rem;
+  padding-left: 0.5rem;
+}
+
+/* Section Titles */
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2a2a2a;
+}
+
+/* Project Cards */
+.pamplets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: #1e4ace;
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  background-color: #b5baa3;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card a {
+  color: #f9f9f9;
+  text-decoration: underline;
+}
+
+.section h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+

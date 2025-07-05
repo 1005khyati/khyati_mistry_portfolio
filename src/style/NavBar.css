@@ -1,0 +1,71 @@
+/* Global styling reset (optional) */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NavBar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: #EEE8DF;
+  padding: 5px 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav Buttons */
+.nav-link button {
+  background-color: transparent;
+  color: #4A2F24;
+  border: 2px solid transparent;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+}
+
+
+.nav-link button:hover {
+  background-color: #6D4C41;
+  color: #f5f5f5;
+ /*  border-color: #ffffff;
+  border-width: 3.5px; */
+}
+
+/* Search Box */
+.nav-search input[type="search"] {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 200px;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-search input[type="search"]:focus {
+  width: 300px;
+  box-shadow: 0 0 5px #fff;
+}
+
+/* Responsive (optional) */
+/* @media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-search input[type="search"] {
+    width: 100%;
+  }
+} */
